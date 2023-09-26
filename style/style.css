@@ -102,4 +102,14 @@ nav a{
 
 .about-inf-container{
     display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
 }
