@@ -1,8 +1,42 @@
 *{
+    /* margin: o;
+    padding: 0; */
     font-family: 'Open Sans', sans-serif;
     font-family: 'Playfair Display', serif;
 }
 /* nav related css */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-primary{
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    padding: 15px 35px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.nav-title{
+    font-size: 45px;
+    font-family: Open Sans;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
 }
