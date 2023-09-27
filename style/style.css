@@ -102,14 +102,16 @@ main section{
 }
 /* about section style */
 .about{
-    padding: 130px;
-    border-radius: 20px;
+    padding: 100px;
+    border-radius: 40px;
     background-color: #fff8f3;
-    margin-top: 130px;
-   
-   
+    margin-top: 10px;
 }
 
+.section-title{
+    margin: 10px;
+    
+}
 .about-inf-container{
     display: flex;
     justify-content: space-between;
@@ -122,12 +124,13 @@ main section{
 /*skill related style */
 #what-i-do-description{
     padding: 30px 150px;
+    text-align: center;
 }
 .skill{
-   padding: 30px;
+   padding: 20px;
    border-radius: 5px;
    background: #fff;
-   box-shadow: 10px 6px 10px 5px rgba(39, 38, 38, 0.08);
+   box-shadow: 10px 6px 10px 5px rgba(0, 0, 0, 0.06);
    
 }
 .skill-title{
@@ -140,7 +143,7 @@ main section{
 }
 .skill-descriptiopn{
     color: #757575;
-    margin-top: 20px;
+   
     
 }
 .saction-descripsion{
