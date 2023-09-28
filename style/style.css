@@ -10,6 +10,12 @@ nav{
     justify-content: space-between;
     margin: 0 160px;
 }
+li, button, .btn-primary:hover{
+    background-color: rgb(249, 246, 243);
+    color: #181818;
+    
+    transform: 0.5s;
+}
 .btn-primary{
     background: #FD6E0A;
     border-radius: 5px;
@@ -19,6 +25,7 @@ nav{
     color: white;
     padding: 15px 35px;
 }
+
 .section-title{
     color: #181818;
     text-align: center;
@@ -193,7 +200,7 @@ footer{
     gap: 100px;
     background: #FFF8F3;
     margin-top: 10px;
-    padding: 130px 200px;
+    padding: 100px 100px;
 }
 .footer-column{
     width: 50%;
